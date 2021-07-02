@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!--Title-->
+        <title>LAR Appliance Repair</title>
+
+        <!--CSS Stylesheet-->
+        <link rel="stylesheet" href="../static/index.css" type="text/css">
+        <link rel="stylesheet" href="../static/header.css" type="text/css">
+
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--mobile sticky phone button-->
+        <div class="spacer-top"></div>
+        <section class="phone-top">
+            <a class="phonebtn top" href="tel:4164180309">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <p style="font-weight: 900;">&#9742; call: 416-418-0309</p>
+            </a>
+        </section>
+    <!--Header-->
+    <header>
+        <nav class="header" id="myHeader">
+            <!--Logo-->
+            <a href="home" class="image">
+                <img src="../images/logo.png" alt="logo">
+            </a>
+
+            <!--Hamburger button-->
+            <div class="toggle-menu">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+            </div>
+            
+            <!--Putting all header links (except for icon and logo) into one div-->
+            <div class="headerLinks">
+                <!--Only shown in mobile menu-->
+                <a class="mobileHome" id="active" href="home">Home</a>
+                <!--Dropdown for Services-->
+                <div class="accordion">
+                    <div class="dropdown">
+                        <div class="dropbtn">Services
+                            <i class="arrow up"></i>
+                        </div>
+                        <div class="dropItems" id="itemsList">
+                            <a href="fridge">
+                                <img src="../images/icons/Refrigerator_.png">
+                                Fridge Repairs
+                            </a>
+                            <a href="washing-machine">
+                                <img src="../images/icons/Washing-machine_.png">
+                                Washer Repairs
+                            </a>
+                            <a href="dryer">
+                                <img src="../images/icons/Dryer.png">
+                                Dryer Repairs
+                            </a>
+                            <a href="dishwasher">
+                                <img src="../images/icons/Dishwasher_.png">
+                                Dishwasher Repairs
+                            </a>
+                            <a href="oven">
+                                <img src="../images/icons/Oven.png">
+                                Oven Repairs
+                            </a>
+                            <a href="stove">
+                                <img src="../images/icons/Stove.png">
+                                Stove Repairs
+                            </a>
+                            <a href="microwave">
+                                <img src="../images/icons/Microwave_.png">
+                                Microwave Repairs
+                            </a>
+                            <a href="installation">
+                                <img src="../images/icons/Kitchen.png">
+                                Installation
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            
+                <!--Other Header elements-->
+                <a href="reviews">Reviews</a> <!--might contain fake reviews AND later become a link to genuine Google Reviews page-->
+                <a href="contact">Contact Us</a>
+                
+                
+                <a class="phonebtn" href="tel:4164180309">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    416-418-0309
+                </a>
+                <!--<a class="bookbtn" href="book">Book Now</a>-->
+            </div>
+            
+        </nav>
+    </header>
+    <!--End of Header-->
+
+        <!--call button for mobile-->
+        <div class="showMobilePhn">
+            <a class="mobilePhonebtn" href="tel:4164180309"></a>
+        </div>
+
+        <!--JavaScript Links-->
+        <script src="../static/scripts/header.js"></script>
+        
+    </body>
+</html>
